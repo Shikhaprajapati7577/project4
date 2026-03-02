@@ -1,1 +1,11 @@
 hy my name is shikhA
+
+p {
+  color: red;
+  text-align: center;
+}
+Example Explained
+p is a selector in CSS (it points to the HTML element you want to style: <p>).
+color is a property, and red is the property value
+text-align is a property, and center is the property value
+You will learn much more about CSS selectors and CSS properties in the next chapters!

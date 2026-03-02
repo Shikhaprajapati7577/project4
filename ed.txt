@@ -1,0 +1,15 @@
+Hierarchy: Always start with <h1> and follow the order without skipping levels.
+
+Single <h1>: Prefer using only one <h1> per page to describe the main content.
+
+Accessibility: Properly nested headings help screen readers navigate the content.
+
+Styling
+
+Headings have default sizes, but you can customize them using CSS.
+
+<h1 style="font-size:60px;">Custom Heading 1</h1>
+Copy
+Best Practices
+
+Do not use headings to resize text; use CSS for that.
