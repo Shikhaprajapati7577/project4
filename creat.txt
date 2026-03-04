@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Example</title>
+
+<style>
+    /* Reset some default browser styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+    }
+
+    /* Header styling */
+    header {
+        background: #4CAF50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    /* Button styling */
+    .btn {
+        display: inline-block;
+        background: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background 0.3s ease;
+    }
+
+    /* Hover effect */
+    .btn:hover {
+        background: #45a049;
+        cursor: pointer;
+    }
+
+    /* Card styling */
+    .card {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+        .btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Styled with CSS</p>
+</header>
+
+<div class="card">
+    <h2>About</h2>
+    <p>This is a simple example of CSS styling with hover effects and responsive design.</p>
+    <a href="#" class="btn">Learn More</a>
+</div>
+
+</body>
+</html>
+Features in this CSS:
+Reset styles for consistency across browsers.
+Custom colors, fonts, and spacing.
+Hover effects for interactive elements.
+Responsive design using @media queries for mobile devices.
+Card layout with shadows and rounded corners.
+If you want, I can also give you a pure CSS animation example or a modern CSS grid/flexbox layout.
+Do you want me to prepare that next?
